@@ -1,0 +1,800 @@
+/* Home */
+
+/* header top */
+.header_section .header_top {
+  padding: 15px 0;
+}
+
+.header_section .header_top .contact_nav {
+  display: flex;
+}
+
+.header_section .header_top .contact_nav a {
+  margin-right: 25px;
+  color: #555555;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contact_nav_icon{
+  color: #00c6a9;
+  margin-right: 8px;
+  font-size: 18px;
+}
+#banner img {
+  width: 100%;
+  height: 500px;
+}
+
+#services img {
+  width: 100%;
+  height: 100%
+}
+.header_section img{
+  background-color: #ffff;
+  padding: 10px 20px;
+}
+.header_section .navbar{
+  background-color: #00c6a9;
+}
+.header_section .nav-link{
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.header_section .nav-link:hover{
+  color: #0b0b0b;
+  font-size: 18px;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.slider_section .row {
+  align-items: center;
+}
+.slider_section h1{
+  width: 30px;
+  font-weight: bold;
+}
+.slider_section span{
+  color: #00c6a9;
+}
+.slider_section p{
+  color: #6d6d6d;
+  font-size: 18px;
+}
+.slider_section .contact-btn{
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.slider_img1{
+  position: relative;
+}
+.slider_img2{
+  position: absolute;
+  bottom: 0;
+  top:200px;
+}
+/*Booking*/
+
+.book_section h4 {
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+}
+
+.book_section h4 span {
+  color: #00c6a9;
+}
+
+.book_section h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 2px;
+  background-color: #00c6a9;
+}
+
+.book_section form {
+  padding: 35px 45px;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+}
+
+.book_section form label {
+  color: #000000;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.book_section form .form-control {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #00c6a9;
+  height: 45px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.book_section form .form-control::placeholder {
+  color: #00c6a9;
+}
+
+.book_section form button.btn {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.book_section form button.btn:hover {
+  background-color: #252525e4;
+}
+.book_section .date_icon {
+  right: 10px;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00c6a9;
+}
+
+/* About */
+
+.layout_padding {
+  padding: 50px 0px;
+}
+.about_section .detail-box {
+  color: #252525;
+} 
+.about_section .heading_container h2{
+  font-weight: bold;
+}
+.about_section .heading_container span{
+  color: #00c6a9;
+}
+.about_section .detail-box p {
+  color: #6d6d6d;
+  margin-top: 15px;
+}
+.about_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #252525;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.about_section .detail-box a:hover {
+  background-color: #252525e1;
+}
+.about_section .row {
+  align-items: center;
+}
+.abtimg-box img {
+  max-width: 100%;
+}
+
+/* Treatment */
+.treatment_section .heading_container h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.treatment_section .heading_container span {
+  color: #00c6a9;
+}
+
+.treatment_section {
+  position: relative;
+}
+
+.treatment_section .side_img {
+  position: absolute;
+  right: 15px;
+  width: 175px;
+  height: auto;
+  bottom: 125px;
+  z-index: -1;
+}
+
+.treatment_section .side_img img {
+  width: 100%;
+}
+
+.treatment_section .box {
+  margin-top: 45px;
+}
+
+.treatment_section .box .detail-box h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.treatment_section .box .detail-box a {
+  text-transform: uppercase;
+  color: #00c6a9;
+}
+.treatment_section .box .detail-box a:hover{
+  border: 1 solid black;
+  padding: 10px 20px;
+  background-color: #000000;
+  border-radius: 4px;
+  color: #00c6a9;
+}
+
+.treatment_section .box .detail-box {
+  margin-top: 15px;
+}
+
+
+/* Doctors */
+.team_section {
+  background-color: #00c6a9;
+}
+  .team_section .heading_container {
+    margin-bottom: 45px;
+  }
+.team_section .heading_container h2 {
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team_section .heading_container h2 span {
+  color: #ffffff;
+}
+
+.team_section .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+  padding: 0 10px;
+  background: linear-gradient(to bottom, transparent 10%, #ffffff 10%);
+}
+
+.team_section .box .img-box img {
+  width: 100%;
+}
+
+.team_section .detail-box {
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.team_section .detail-box h5 {
+  font-weight: bold;
+}
+
+.team_section .detail-box h6 {
+  color: #00c6a9;
+}
+
+.doctors_imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.doctors_imgs img {
+  margin: -20px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team_section .img-card {
+  background-color: #ffff;
+  margin: 10px
+}
+
+.team_section .detail-box {
+  text-align: center;
+}
+
+.social_links {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.social_links>* {
+  margin: 0 10px;
+}
+
+.team_section .carousel-control-prev,
+.team_section .carousel-control-next {
+  width: 45px;
+  height: 125px;
+  opacity: 1;
+  font-size: 28px;
+  font-weight: bold;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Testimonial*/
+
+.client_section .heading_container h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 35px;
+  color: #00c6a9;
+}
+
+.client_section .box {
+  margin: 15px 45px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 25px;
+}
+
+.client_section .box .client_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client_section .box .client_info .client_name h5 {
+  font-weight: 600;
+  color: #00c6a9;
+}
+
+.client_section .box .client_info .client_name h6 {
+  margin-bottom: 0;
+  color: #bfc0c0;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.client_section .box .client_info i {
+  font-size: 24px;
+}
+
+.client_section .box p {
+  margin-top: 15px;
+}
+
+.client_section .carousel-control-prev,
+.client_section .carousel-control-next {
+  width: 45px;
+  height: 125px;
+  background-color: #00c6a9;
+  opacity: 1;
+  font-size: 28px;
+  font-weight: bold;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.client_section .carousel-control-prev {
+  left: 0;
+}
+
+.client_section .carousel-control-next {
+  right: 0;
+}
+
+/* Contact Us */
+
+.contact_section {
+  position: relative;
+}
+
+.contact_section .heading_container h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.contact_section .form_container input {
+  width: 100%;
+  border: 1px solid #00c6a9;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #101010;
+}
+
+.contact_section .form_container input::placeholder {
+  color: #00c6a9;
+}
+
+.contact_section .form_container input.message-box {
+  height: 120px;
+}
+
+.contact_section .form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 65px;
+  background-color: #00c6a9;
+  color: #ffffff;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.contact_section .form_container button:hover {
+  background-color: #00937d;
+}
+
+.contact_section .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* login */
+
+.login_container .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 85vh;
+}
+
+.login_container form {
+  width: 350px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.login_container form .form-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login_container form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login_container form .form-check-label {
+  font-size: 14px;
+}
+
+.login_container form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login_container form button:hover {
+  background-color: #0056b3;
+}
+
+.login_container p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 450;
+}
+
+.login_container span {
+  color: #1e89fb;
+}
+
+
+/* Footer */
+.info_section {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+.info_section h5 {
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.info_section h5:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #00c6a9;
+  transform: translateY(-50%);
+}
+
+.info_section .info_top {
+  display: flex;
+  align-items: center;
+}
+
+.info_top .info_logo {
+  background-color: #ffff;
+  padding: 10px 20px;
+  margin-right: 45px;
+  margin-top: 10px;
+}
+.subscribe_form {
+  display: flex;
+  margin-top: 10px;
+  margin: auto;
+}
+.email_input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.subscribe_button {
+  padding: 10px 20px;
+  color:#00c6a9;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.info_links_menu {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.info_links_menu a {
+  color: #ffffff;
+}
+
+.info_links_menu a:hover {
+  color: #00c6a9;
+}
+
+.info_contact a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.info_contact a:hover{
+  color: #00c6a9;
+}
+.info_contact span {
+  margin-left: 10px;
+}
+
+.info_bottom .social_box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.info_bottom .social_box a {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.info_bottom .social_box a:hover {
+  color: #00c6a9;
+}
+
+.post_box {
+  display: flex;
+  align-items: center;
+}
+
+.post_box p {
+  margin-top: 20px;
+}
+
+.img-box img {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.footer_section {
+  position: relative;
+  background-color: #252525;
+  text-align: center;
+}
+
+.footer_section p {
+  color: #ffffff;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
+
+
+
+
+/* Media query */
+@media (max-width: 992px) {
+  .header_section {
+    margin-top: 0;
+  }
+  .header_section .header_top .contact_nav {
+    justify-content: space-between;
+  }
+  .header_section .nav-link{
+    margin: 0px;
+    font-size: 15px;
+  }
+  /* .contact_nav span{
+    display: none;
+  } */
+ 
+  .contact_nav_icon {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .slider_section {
+    padding: 30px 0 20px 0;
+  }
+  .client_section .carousel_btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .slider_img2{
+    position: absolute;
+    top:500px;
+  }
+  .doctors_imgs img {
+    margin: -20px 0 0 10px;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+  }
+  
+  .team_section .img-card {
+    background-color: #ffff;
+    margin: 3px;
+    width: 200px;
+    height: 270px;
+  }
+  .team_section .detail-box h5 {
+    font-size: 18px;
+  }
+  
+  .team_section .detail-box h6 {
+    font-size: 16px;
+  }
+  .social_links {
+    font-size:20px;
+    display:block;
+  }
+  
+  .social_links>* {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_section .detail-box {
+    margin-top: 45px;
+  }
+  .client_section .heading_container h2 {
+    text-align: center;
+   }
+  .contact_section .heading_container h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a {
+    margin-right: 0;
+  }
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .header_section .header_top .contact_nav a i {
+    font-size: 28px;
+    margin: 0;
+  }
+  .layout_padding {
+    padding: 30px 0px;
+  }
+  .treatment_section .side_img {
+    display: none;
+  }
+
+  .info_section .info_top {
+    flex-direction: column;
+  }
+
+  .info_section .info_top .info_logo {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .team_section .box {
+    padding: 0 10px;
+  }
+  
+  .team_section .detail-box {
+    padding: 0px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+  .doctors_imgs img {
+    margin: -20px 0 0 5px;
+    width: 80px;
+    height: 90px;
+    object-fit: contain;
+  }
+  
+  .team_section .img-card {
+    background-color: #ffff;
+    margin: 3px;
+    width: 90px;
+    height: 150px;
+  }
+  .team_section .detail-box h5 {
+    font-size: 15px;
+  }
+  
+  .team_section .detail-box h6 {
+    font-size: 13px;
+  }
+  .social_links {
+    font-size:15px;
+    display:block;
+  }
+  
+  .social_links>* {
+    margin: 0;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1400px){
+  .doctors_imgs img {
+    width: 260px;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .team_section .img-card {
+    background-color: #ffff;
+    margin: 3px;
+    width: 280px;
+    height: 350px;
+  }
+}
